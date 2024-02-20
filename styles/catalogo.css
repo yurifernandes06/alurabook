@@ -1,0 +1,52 @@
+.catalogo__titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.catalogo__titulo__h3 {
+    color: var(--laranja);
+    font-weight: 700;
+    padding: 0.5em 0;
+}
+
+.descricao__texto__catalogo {
+    font-size: 14px;
+    Line-height: 21px;
+}
+
+@media screen and (min-width: 1024px) {
+    .catalogo__titulo {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .catalogo__titulo {
+        font-size: 36px;
+    }
+
+    .card {
+        padding: 4em;
+    }
+
+    .catalogo__titulo__h3 {
+        font-size: 32px;
+    }
+
+    .descricao__titulo__livro{
+        font-size: 20px;
+    }
+
+    .descricao__texto__catalogo {
+        font-size: 16px;
+    }
+
+    .descricao {
+    padding-right: 2em;
+    }
+}
